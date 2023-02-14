@@ -1,9 +1,12 @@
 import Count from "./components/Count";
 import FocusInput from "./components/FocusInput";
+import ParentWO from "./components/ParentWO";
+import PropDrillingW from "./components/PropDrillingW";
+import PropDrillingWo from "./components/PropDrillingWo";
 import Render from "./components/Render";
 import State from "./components/State";
-import Track from "./components/Track";
 import StopWatch from "./components/StopWatch";
+import Track from "./components/Track";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Count /> 
       <Track />
       <StopWatch />
+      <ParentWO />
+      <PropDrillingWo />
+      <PropDrillingW />
     </div>
   );
 }
